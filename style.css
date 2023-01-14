@@ -53,3 +53,30 @@ justify-content: space-around;
     font-size: 18px ;
     border-radius: 15px;
 }
+.addinfo .container{
+    background-color: goldenrod;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.addinfo .images{
+display: flex;
+background-color: beige;
+margin-top: 10px;
+flex-wrap: wrap;
+}
+h2{
+    display: flex;
+    align-self: center;
+    font-size: 28px;
+}
+
+img{ 
+    display: flex;
+    flex: 1 1 0;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
