@@ -101,3 +101,39 @@ margin: 10px;
     margin: 10px;
     color: darkblue;
 }
+.quote{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightcoral;
+    color: black;
+} 
+.quote p{
+    height: 250px;
+    width: 600px;
+    line-height: 1.5;
+}
+.quotername{
+
+align-self: flex-end;
+margin-right: 200px;
+}
+.action .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+} 
+ .action .text{
+    display: flex;
+    background-color: blue;
+    color: #fff;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
